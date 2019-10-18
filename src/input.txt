@@ -1,0 +1,21 @@
+begin
+
+main
+
+intVariable = 8
+
+strVariable = apple
+
+boolVar = 800 >= 60
+
+boolVar2 = 800 >= 6000
+
+expVar = 900 / 9
+
+apple = 420
+
+75 * 5
+
+endfun
+
+

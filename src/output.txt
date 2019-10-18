@@ -1,0 +1,66 @@
+LEXEMES:                    TOKEN CODES:
++                           2001
+-                           2002
+*                           2003
+/                           2004
+<                           2005
+<=                          2006
+>                           2007
+>=                          2008
+=                           2009
+==                          2010
+~=                          2011
+Identifier                  2012
+Integer                     2013
+Boolean                     2014
+Keywords                    1001 - 1029
+-----------------------------------------
+Lexeme is: begin    |   Token Code is: 1018    |   at Column: 1    |   at Row: 1
+Lexeme is: main    |   Token Code is: 1015    |   at Column: 1    |   at Row: 3
+Lexeme is: intVariable    |   Token Code is: 2012    |   at Column: 1    |   at Row: 5
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 13    |   at Row: 5
+Lexeme is: 8    |   Token Code is: 2013    |   at Column: 15    |   at Row: 5
+Lexeme is: strVariable    |   Token Code is: 2012    |   at Column: 1    |   at Row: 7
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 13    |   at Row: 7
+Lexeme is: apple    |   Token Code is: 2012    |   at Column: 15    |   at Row: 7
+Lexeme is: boolVar    |   Token Code is: 2012    |   at Column: 1    |   at Row: 9
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 9    |   at Row: 9
+Lexeme is: 800    |   Token Code is: 2013    |   at Column: 11    |   at Row: 9
+Lexeme is: >=    |   Token Code is: 2008    |   at Column: 15    |   at Row: 9
+Lexeme is: 60    |   Token Code is: 2013    |   at Column: 18    |   at Row: 9
+Lexeme is: boolVar2    |   Token Code is: 2012    |   at Column: 1    |   at Row: 11
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 10    |   at Row: 11
+Lexeme is: 800    |   Token Code is: 2013    |   at Column: 12    |   at Row: 11
+Lexeme is: >=    |   Token Code is: 2008    |   at Column: 16    |   at Row: 11
+Lexeme is: 6000    |   Token Code is: 2013    |   at Column: 19    |   at Row: 11
+Lexeme is: expVar    |   Token Code is: 2012    |   at Column: 1    |   at Row: 13
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 8    |   at Row: 13
+Lexeme is: 900    |   Token Code is: 2013    |   at Column: 10    |   at Row: 13
+Lexeme is: /    |   Token Code is: 2004    |   at Column: 14    |   at Row: 13
+Lexeme is: 9    |   Token Code is: 2013    |   at Column: 16    |   at Row: 13
+Lexeme is: apple    |   Token Code is: 2012    |   at Column: 1    |   at Row: 15
+Lexeme is: =    |   Token Code is: 2009    |   at Column: 7    |   at Row: 15
+Lexeme is: 420    |   Token Code is: 2013    |   at Column: 9    |   at Row: 15
+Lexeme is: 75    |   Token Code is: 2013    |   at Column: 1    |   at Row: 17
+Lexeme is: *    |   Token Code is: 2003    |   at Column: 4    |   at Row: 17
+Lexeme is: 5    |   Token Code is: 2013    |   at Column: 6    |   at Row: 17
+Lexeme is: endfun    |   Token Code is: 1019    |   at Column: 1    |   at Row: 19
+
+
+
+Identifier name: intVariable | Type: Int | Value: 8
+Identifier name: strVariable | Type: String | Value: apple
+Identifier name: boolVar | Type: Boolean | Value: True
+Identifier name: boolVar2 | Type: Boolean | Value: False
+Identifier name: expVar | Type: Int | Value: 100
+Identifier name: apple | Type: Int | Value: 420
+
+
+
+Arithmetic Expression: 900 / 9 = 100
+
+Arithmetic Expression: 75 * 5 = 375
+
+Boolean Expression: 800 >= 60 = True
+
+Boolean Expression: 800 >= 6000 = False
